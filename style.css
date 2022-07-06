@@ -11,17 +11,19 @@ body {
 }
 nav {
     font-size: 18px;
+    float: right;
 }
 
 nav a:link {
-    margin-right: 30px;
     margin-top: 10px;
     display: inline-block;
+    padding-right: 20px;
 }
 
 nav a:link:last-child {
     margin-right: 0;
 }
+
 h1, h4 {
     text-transform: uppercase;
 }
@@ -33,6 +35,7 @@ h1, h2, h3 {
 h1 {
     font-size: 26px;
     font-style: italic;
+    float: left;
 }
 
 h1::first-letter {
@@ -78,7 +81,8 @@ p {
 
 
 article {
-    padding-bottom: 60px;
+    width: 825px;
+    float: left;
 }
 
 ul, ol {
@@ -121,15 +125,18 @@ footer p {
     background-color: #f7f7f7;
     padding: 20px 40px;
     margin-bottom: 60px;
-    height: 80px;
+    height: 40px;
 }
 
 aside {
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
-    padding: 50px 0;
-    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    width: 300px;
+    float: right;
 }
 
 .first-ls {
@@ -162,7 +169,7 @@ a:active {
 }
 
 #container {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -173,4 +180,8 @@ a:active {
     cursor: pointer;
     right: 50px;
     bottom: 50px;
+}
+
+footer {
+    clear: both;
 }
